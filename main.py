@@ -1,10 +1,9 @@
-import gensim
-from pprint import pprint
-import re
-import numpy as np
-import pickle
-from tqdm import tqdm
 import codecs
+import pickle
+
+import gensim
+import numpy as np
+
 from names import name_parts
 
 # data = dict(

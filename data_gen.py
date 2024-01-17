@@ -1,10 +1,10 @@
 # DOWNLOAD `entity_vector.model.bin` FROM https://www.cl.ecei.tohoku.ac.jp/~m-suzuki/jawiki_vector/
 
-import gensim
-from pprint import pprint
-import re
-import numpy as np
 import pickle
+import re
+
+import gensim
+import numpy as np
 from tqdm import tqdm
 
 model = gensim.models.KeyedVectors.load_word2vec_format('./entity_vector.model.bin', binary=True)

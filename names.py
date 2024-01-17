@@ -1,7 +1,6 @@
 import codecs
 import pickle
 import re
-from pprint import pprint
 
 import bs4
 
