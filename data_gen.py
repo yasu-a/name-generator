@@ -19,7 +19,7 @@ for word, index in tqdm(model.key_to_index.items()):
     word = word.strip('[]')
     if not is_katakana(word):
         continue
-    if not (2 <= len(word) <= 8):
+    if not (3 <= len(word) <= 6):
         continue
     index_to_word[index] = word
 
