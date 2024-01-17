@@ -1,6 +1,8 @@
 # name-generator
 かっこいい競走馬の名前を考えてくれる
 
+文字数改良版→https://github.com/yasu-a/name-generator/tree/shorter-words
+
 # 原理
 【Wikipediaから拾ってきた実在する競走馬の名前】と【学習済みword2vec】から，実在する競争馬の名前に使われている横文字を似た横文字に置き換えることでランダムにそれらしい名前を生成する。
 
