@@ -7,15 +7,16 @@
 実在する競走馬の名前のデータは[names.html](./names.html)に格納されていて，モジュール[names.py](./names.py)により読み込まれる。
 
 # 使い方
-1. [ここ](https://www.cl.ecei.tohoku.ac.jp/~m-suzuki/jawiki_vector/)から.tar.gz形式のw2vデータを拾ってきて展開，ファイル`entity_vector.model.bin`をスクリプトの階層に配置する。
-2. [data_gen.py](./data_gen.py)を実行して横文字だけのベクトルデータ[data.pickle](./data.pickle)を生成する。
-3. [main.py](./main.py)を実行するたびに[data.pickle](./data.pickle)から名前が生成される。
+1. [ここ](https://www.cl.ecei.tohoku.ac.jp/~m-suzuki/jawiki_vector/)から.tar.bz2形式のw2vデータをダウンロードしてくる。
+2. ダウンローした.tar.bz2ファイルを7zipなどのアプリで展開，中のファイル`entity_vector.model.bin`をスクリプトの階層に配置する。
+3. [data_gen.py](./data_gen.py)を実行して横文字だけのベクトルデータ[data.pickle](./data.pickle)を生成する。
+4. [main.py](./main.py)を実行するたびに[data.pickle](./data.pickle)から名前が生成される。
 
-[data.pickle](./data.pickle)はリポジトリのファイルに含まれているので，上記1.と2.はスキップ可
+[data.pickle](./data.pickle)はリポジトリのファイルに含まれているので上記1.～3.はスキップ可
 
 
 # 出力例
-[main.py](./main.py)実行で256個名前を考えて，[out.txt](./out.txt)に出力してくれる
+[main.py](./main.py)実行で256個名前を考えて[out.txt](./out.txt)に出力してくれる
 
 ```text
 サーヴァ フクロウ
